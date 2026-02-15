@@ -14,10 +14,11 @@ python waste_flow_cal.py
 
 # Step 2: Calculate 2015 Coupling Coordination Degree (CCD)
 python D_Cal.py
-
+```
 ### 2. 2019 Calculation
 
 #### Execution Steps
+```bash
 # Navigate to the 2019 directory first
 cd 2019
 
