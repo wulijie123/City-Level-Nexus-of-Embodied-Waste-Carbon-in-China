@@ -3,7 +3,7 @@ This repository implements the calculation workflow for the city-level nexus of 
 
 ## Data Access
 The raw data and intermediate calculation files required for this project are stored in Google Drive, which can be accessed via the following link:  
-https://drive.google.com/drive/folders/1EIag-r4Gtpx0j7vcU6-JDN87OjU0KyNd?usp=drive_link
+https://drive.google.com/drive/folders/1EIag-r4Gtpx0j7vcU6-JDN87OjU0KyNd?usp=sharing
 
 ## Project Structure
 ```plaintext
