@@ -6,35 +6,37 @@ The raw data and intermediate calculation files required for this project are st
 https://drive.google.com/drive/folders/1EIag-r4Gtpx0j7vcU6-JDN87OjU0KyNd?usp=drive_link
 
 ## Project Structure
+```plaintext
 │
 ├── 2015/
-│  ├── data/ # Data directory (raw/processed data for 2015)
-│  ├── waste_flow_cal.py # Waste flow calculation based on MRIO model
-│  ├── D_Cal.py # Coupling Coordination Degree (CCD) calculation
-│  └── result/ # Results directory for 2015
-│    ├── result_c/ # Carbon transfer results
-│    ├── result_hw/ # Hazardous waste transfer results
-│    ├── result_isw/ # Industrial solid waste transfer results
-│    └── CCD_result.xlsx # Coupling Coordination Degree (CCD) results
+│  ├── data/                                   # Data directory (raw/processed data for 2015)
+│  ├── waste_flow_cal.py                       # Waste flow calculation based on MRIO model
+│  ├── D_Cal.py                                # Coupling Coordination Degree (CCD) calculation
+│  └── result/                                 # Results directory for 2015
+│    ├── result_c/                             # Carbon transfer results
+│    ├── result_hw/                            # Hazardous waste transfer results
+│    ├── result_isw/                           # Industrial solid waste transfer results
+│    └── CCD_result.xlsx                       # Coupling Coordination Degree (CCD) results
 │
 ├── 2019/
-│  ├── data/ # Data directory (raw/processed data for 2019)
-│  ├── 2019_HW_RAS.py # Hazardous waste data balancing using RAS method
-│  ├── Regression_Model_Construction.py # Regression model construction
-│  ├── Classification-Regression_Model.py # Industrial solid waste prediction
-│  ├── 2019_ISW_RAS.py # ISW data imputation and RAS balancing
-│  ├── ISW_prediction_validation.py # ISW prediction and balancing validation
-│  ├── waste_flow_cal.py # Waste flow calculation based on MRIO model
-│  ├── D_Cal.py # Coupling Coordination Degree (CCD) calculation
-│  └── result/ # Results directory for 2019
-│    ├── inventory/ # 2019 waste inventory construction results
-│    │  ├── 2019HW_all.csv # Balanced HW data for ISW prediction
+│  ├── data/                                   # Data directory (raw/processed data for 2019)
+│  ├── 2019_HW_RAS.py                          # Hazardous waste data balancing using RAS method
+│  ├── Regression_Model_Construction.py        # Regression model construction
+│  ├── Classification-Regression_Model.py      # Industrial solid waste prediction
+│  ├── 2019_ISW_RAS.py                         # ISW data imputation and RAS balancing
+│  ├── ISW_prediction_validation.py            # ISW prediction and balancing validation
+│  ├── waste_flow_cal.py                       # Waste flow calculation based on MRIO model
+│  ├── D_Cal.py                                # Coupling Coordination Degree (CCD) calculation
+│  └── result/                                 # Results directory for 2019
+│    ├── inventory/                            # 2019 waste inventory construction results
+│    │  ├── 2019HW_all.csv                     # Balanced HW data for ISW prediction
 │    │  ├── 2019_newdata_combined_predictions.csv # 2019 ISW prediction results
-│    │  └── 2019_waste_data.csv # Final 2019 city-level waste inventory
-│    ├── result_c/ # Carbon transfer results
-│    ├── result_hw/ # Hazardous waste transfer results
-│    ├── result_isw/ # Industrial solid waste transfer results
-│    └── CCD_result.xlsx # Coupling Coordination Degree (CCD) results
+│    │  └── 2019_waste_data.csv                # Final 2019 city-level waste inventory
+│    ├── result_c/                             # Carbon transfer results
+│    ├── result_hw/                            # Hazardous waste transfer results
+│    ├── result_isw/                           # Industrial solid waste transfer results
+│    └── CCD_result.xlsx                       # Coupling Coordination Degree (CCD) results
+```
 
 ## Calculation Workflow
 ### 1. 2015 Calculation
