@@ -1,9 +1,6 @@
 # City-Level-Nexus-of-Embodied-Waste-Carbon-in-China
 This repository implements the calculation workflow for the city-level nexus of embodied waste carbon in China, covering the quantitative calculation of waste flow based on Input-Output (IO) tables and the measurement of Coupling Coordination Degree (CCD) for 2015 and 2019. The core logic follows the sequence of "data preprocessing → model calculation → result validation → core indicator measurement".
 
-## Data Access
-The raw data and intermediate calculation files required for this project are stored in Google Drive, which can be accessed via the following link:  
-https://drive.google.com/drive/folders/1EIag-r4Gtpx0j7vcU6-JDN87OjU0KyNd?usp=sharing
 
 ## Project Structure
 ```plaintext
